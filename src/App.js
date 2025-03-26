@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+// Edición completada - App.js ha sido modificado
 import ChatInterface from './components/ChatInterface';
 import TaskPanel from './components/TaskPanel';
 import Header from './components/Header';
 
 function App() {
+  // Este componente ha sido editado y recargado
   const [tasks, setTasks] = useState([]);
   const [activeIdea, setActiveIdea] = useState(null);
   const [ideas, setIdeas] = useState([]);
